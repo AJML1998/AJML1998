@@ -29,13 +29,13 @@ int main( int argc, char** argv ) {
         application.run();
         // while( condition == true ) { do something; }
         acceptor.stop();
-        // Shall i kill acceptor like in examples?
+
         return 0;
     }
     catch(FIX::ConfigError& e)
     {
         std::cout << e.what();
-        // Shall i kill acceptor like in examples?
+
         return 1;
     }
 }
