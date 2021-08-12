@@ -27,13 +27,13 @@ int main( int argc, char** argv ) {
                 application.run();
                 // while( condition == true ) { do something; }
                 initiator.stop();
-                // Shall i kill initiatior like in examples?
+      
                 return 0;
     }
     catch(FIX::ConfigError& e)
     {
         std::cout << e.what();
-        // Shall i kill initiatior like in examples?
+   
         return 1;
     }
 }
